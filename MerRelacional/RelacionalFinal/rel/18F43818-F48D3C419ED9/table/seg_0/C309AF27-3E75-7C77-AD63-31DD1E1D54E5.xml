@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C309AF27-3E75-7C77-AD63-31DD1E1D54E5" name="CENTROS">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>637D1C4B-EFDB-15C9-E92F-F3EC3AEA51F5</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cent" id="0DA6DE54-057D-A71D-CC85-F7C82019E16B">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>F2871B98-B400-629D-05A7-59C1DE61B1AE</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="CD23639B-D64E-1EA1-30E2-05A0548A01DC">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>C51602FD-E6BE-30F2-FC3D-5CBF4DF41782</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="F6D5C3C1-746E-E950-7642-CDDD7D12FD44">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>A3CC3E77-A247-E6B8-1CDE-7F9B6BAEB22E</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="D710B6C1-E332-B671-E68C-D542237C282E">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>1B1AEEF4-9DA9-2D49-3DBE-622A6781B116</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="AA7ECD63-8494-34DE-AFA2-C8EE0FDE7B67">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>82DC44BD-FA7D-1311-14C0-7AAC83A64D10</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodigoPostal" id="2BAE6085-4D47-0B7B-08D6-2329005C1BFD">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>29639A5F-E3DA-533D-DC64-898F699F1D0A</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provincia" id="90C2C55E-9B02-8B3D-4164-31B4DD4C12FF">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>B76C3940-4347-C1F7-C149-1DED91961817</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="076C0816-5AC7-E057-914A-DBFDBBAE30AC">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>5B2C132C-A196-612A-BA23-A57C76A591B0</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC4D683A-1C27-8BE3-95E1-FE424F43DA98" name="CENTROS_PK">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>7C439870-352F-0AE0-DABB-551A28A61D5C</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DA6DE54-057D-A71D-CC85-F7C82019E16B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

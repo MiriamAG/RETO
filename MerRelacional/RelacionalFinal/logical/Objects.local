@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="237F6C16-E859-988D-7F7C-2FBC349A99B9" name="VEHICULOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="637D1C4B-EFDB-15C9-E92F-F3EC3AEA51F5" name="CENTROS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9365F99C-9668-D4AC-5C6F-D2C9B9E463B7" name="USUARIOS" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B8F6C290-525B-4C6C-6CCC-9DBF339CB4CF" name="TRABAJADORES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="BFEA8642-8832-7FFC-66A8-78FF8F4C430E" name="VALIDACION" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F1E77F2D-F651-DCC9-43ED-97FEB6AC1A59" name="PARTE" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1A2AA073-028B-A19D-9790-D05796DE8C64" name="TIENEN" seqName="seg_0"/>
+   <object objectType="Relation" objectID="39468B7B-8107-F3F8-B508-5A28796438AD" name="RELLENAN" seqName="seg_0"/>
+   <object objectType="Relation" objectID="482DFC6E-01D7-BFB4-8BEC-C19E406ACAD6" name="CONDUCEN" seqName="seg_0"/>
+   <object objectType="Relation" objectID="54BC10DD-302F-A7D8-770A-0281838E81AF" name="COMPÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢NEN" seqName="seg_0"/>
+   <object objectType="Relation" objectID="70ED97F8-DE05-0F6E-C624-E02EEC126B92" name="TRABAJAN" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

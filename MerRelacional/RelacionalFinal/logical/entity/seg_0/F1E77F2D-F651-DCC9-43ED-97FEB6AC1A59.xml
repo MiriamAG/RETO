@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1E77F2D-F651-DCC9-43ED-97FEB6AC1A59" name="PARTE">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:41:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDViaje" id="666DCF87-4150-FC53-9E58-9BDBDD64176E">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:41:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoraInicio" id="50012D84-1C59-9B5C-F765-479ED2DDA76E">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:41:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HoraFinal" id="2C0B6EB5-4C3B-3776-B187-1331DC952DA6">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:41:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="AE7C3758-545B-3A71-72FA-8EE073CB8057">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:41:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDLog" id="1DE2CE08-04E8-B6BD-FF6E-5B1224F88B8A">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:50:35 UTC</createdTime>
+<generatorID>39468B7B-8107-F3F8-B508-5A28796438AD</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<referedAttribute>3BD9DF43-C72D-B81E-FC71-CE7AF22A0D7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDParte" id="DC24F537-ECEB-2B43-7010-D871C6A24A08">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:52:06 UTC</createdTime>
+<generatorID>54BC10DD-302F-A7D8-770A-0281838E81AF</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<referedAttribute>B38EE178-0F34-433C-1FEF-579596D63CF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="BB9E04D4-2770-4E85-20F3-DD6B9EFB2186">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:05:50 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A07AFB14-A088-6C32-7329-03B5BF585BB6" name="VIAJE PK">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:41:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>666DCF87-4150-FC53-9E58-9BDBDD64176E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

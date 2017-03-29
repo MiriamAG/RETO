@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F78057E3-0DFC-C53F-24F5-4D16BCC6EB6E" name="PARTE">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>F1E77F2D-F651-DCC9-43ED-97FEB6AC1A59</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDViaje" id="F8703AE7-19D8-FA0D-9751-1C3020BB74F0">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>666DCF87-4150-FC53-9E58-9BDBDD64176E</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraInicio" id="EE5EDF52-4619-C243-DDC2-1E9CC20FCF99">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>50012D84-1C59-9B5C-F765-479ED2DDA76E</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HoraFinal" id="03804280-96CA-80D7-A852-DC3DA4C3DC4E">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>2C0B6EB5-4C3B-3776-B187-1331DC952DA6</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="6CFACD24-2982-3A4E-D28E-FF1072C65606">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>AE7C3758-545B-3A71-72FA-8EE073CB8057</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRABAJADORES_IDLog" id="F88CBFBB-19F8-0C34-162D-BE74A0D61616">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>1DE2CE08-04E8-B6BD-FF6E-5B1224F88B8A</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9C7151C-760D-935D-838F-7C907E37828B" referredColumn="72525203-94EC-C1BE-A044-B49159869CEA"/>
+</associations>
+</Column>
+<Column name="VALIDACION_IDParte" id="8869A3BE-5631-1228-D8B3-8996C74A6EEA">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>DC24F537-ECEB-2B43-7010-D871C6A24A08</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93FF7F2F-79C8-672B-64B2-687050C47BC5" referredColumn="56AF59CC-3641-978F-9C2B-E3FBF0F6DDC8"/>
+</associations>
+</Column>
+<Column name="Estado" id="C336F176-D38A-D976-43BE-0B6E95B382FA">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>BB9E04D4-2770-4E85-20F3-DD6B9EFB2186</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6503C24C-E3A9-139C-DFF5-B3EE94C464EB" name="PARTE_PK">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>A07AFB14-A088-6C32-7329-03B5BF585BB6</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8703AE7-19D8-FA0D-9751-1C3020BB74F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5281A3F-3DD6-330B-D345-C37FC59D15EA" name="PARTE_VALIDACION_FK">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>54BC10DD-302F-A7D8-770A-0281838E81AF</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8869A3BE-5631-1228-D8B3-8996C74A6EEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95360B25-C894-2C56-64D0-6AB39AC1768B" name="PARTE_TRABAJADORES_FK">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>39468B7B-8107-F3F8-B508-5A28796438AD</generatorID>
+<ownerDesignName>RelacionalFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F88CBFBB-19F8-0C34-162D-BE74A0D61616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
