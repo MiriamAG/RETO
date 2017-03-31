@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="151B5136-E6B4-A596-3D0A-286898439096" name="AVISOS">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:11:54 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDAviso" id="C084C92E-54BE-6482-C608-51FD77ECB1AF">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:12:03 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="C5142E89-B36B-652E-A925-05DBABA5F245">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:12:18 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDViaje" id="9D5CAD1B-16A5-60CC-2E8D-D7A95952900D">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:12:42 UTC</createdTime>
+<generatorID>A8F09AEF-89FF-A9CD-6619-C63DB4F0F8CD</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<referedAttribute>666DCF87-4150-FC53-9E58-9BDBDD64176E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4002F184-C984-0809-EA78-66F7B68A8A42" name="AVISOS PK">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:12:33 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C084C92E-54BE-6482-C608-51FD77ECB1AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

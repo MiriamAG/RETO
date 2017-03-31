@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9365F99C-9668-D4AC-5C6F-D2C9B9E463B7" name="USUARIOS">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-29 14:52:08 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Usuario" id="90F8B359-5351-E58F-C0F2-98031595E84A">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-29 14:52:24 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="D6DEDC09-0A4C-98F9-5C3D-134023D2F60A">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-29 14:52:24 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="B5FF7F9B-DDAB-F5E5-B542-8D460C2A5E99">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 18:49:56 UTC</createdTime>
+<generatorID>1A2AA073-028B-A19D-9790-D05796DE8C64</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<referedAttribute>3BD9DF43-C72D-B81E-FC71-CE7AF22A0D7F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0096459B-A672-02CF-CDBC-2F14DA258945" name="USUARIOS PK">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-29 14:52:36 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90F8B359-5351-E58F-C0F2-98031595E84A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONDUCEN" directorySegmentName="seg_0" id="482DFC6E-01D7-BFB4-8BEC-C19E406ACAD6">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:07:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B8F6C290-525B-4C6C-6CCC-9DBF339CB4CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>237F6C16-E859-988D-7F7C-2FBC349A99B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Fecha" id="E1D177F7-79BB-7213-60FD-C05A3267B6C0">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:07:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

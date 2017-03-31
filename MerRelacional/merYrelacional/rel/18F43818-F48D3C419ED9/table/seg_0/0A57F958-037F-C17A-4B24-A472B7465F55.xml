@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A57F958-037F-C17A-4B24-A472B7465F55" name="AVISOS">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:13:13 UTC</createdTime>
+<generatorID>151B5136-E6B4-A596-3D0A-286898439096</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDAviso" id="F0ED5EBB-39FF-47C5-DBF6-CC89597A08C6">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:13:13 UTC</createdTime>
+<generatorID>C084C92E-54BE-6482-C608-51FD77ECB1AF</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="B5C5CFF6-E241-1DD4-9E68-ED352BCEB796">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:13:13 UTC</createdTime>
+<generatorID>C5142E89-B36B-652E-A925-05DBABA5F245</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARTE_IDViaje" id="686E3BEA-41FB-1034-F31A-4307DB9EC462">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:13:13 UTC</createdTime>
+<generatorID>9D5CAD1B-16A5-60CC-2E8D-D7A95952900D</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE8F802B-AF35-CD17-F0B3-ADE9E4BB0C1A" referredColumn="F8703AE7-19D8-FA0D-9751-1C3020BB74F0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84F2B149-49EF-FB9D-A4BD-78A727295F11" name="AVISOS_PK">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:13:13 UTC</createdTime>
+<generatorID>4002F184-C984-0809-EA78-66F7B68A8A42</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0ED5EBB-39FF-47C5-DBF6-CC89597A08C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86D4A9B5-52F9-FB49-FE2B-F3EAC933E087" name="AVISOS__IDX">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:13:13 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A8F09AEF-89FF-A9CD-6619-C63DB4F0F8CD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="686E3BEA-41FB-1034-F31A-4307DB9EC462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F11DEB-EB86-0949-34E3-BF85B02685A1" name="AVISOS_PARTE_FK">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:13:13 UTC</createdTime>
+<generatorID>A8F09AEF-89FF-A9CD-6619-C63DB4F0F8CD</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="686E3BEA-41FB-1034-F31A-4307DB9EC462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

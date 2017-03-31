@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RelacionalFinal" id="75BCEC6B-53F8-12CE-DDD3-6E3AB0C4D9A1" version="3.5">
-<createdBy>bcastrof</createdBy>
-<createdTime>2017-03-29 14:40:46 UTC</createdTime>
-<ownerDesignName>entidades</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>75BCEC6B-53F8-12CE-DDD3-6E3AB0C4D9A1</designId>
-</OSDM_Design>

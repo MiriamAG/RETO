@@ -1,0 +1,272 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1070FDBF-4485-A07E-0C23-946F8C8D10F2" name="TRABAJADORES">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>B8F6C290-525B-4C6C-6CCC-9DBF339CB4CF</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="72525203-94EC-C1BE-A044-B49159869CEA">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>3BD9DF43-C72D-B81E-FC71-CE7AF22A0D7F</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI" id="5DEE5900-0937-E3AA-3A6C-2DAA9C40F71A">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:17 UTC</createdTime>
+<generatorID>87739CE9-2DF5-3F06-5C03-31CD8B8C4C88</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="3CD8A64E-3355-195F-22BF-DACBFA50F20E">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>DE21A1CC-4479-598F-F81A-D8B3FDEB705E</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrimerApellido" id="2EF1E805-8C51-36CF-0CCC-95D6D47EAF9F">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>DE8DF100-3E80-0865-5757-8C3726FB0706</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SegundoApellido" id="3E0AF5E9-F03B-0729-6D64-523E2AD74550">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>F0909E0E-0B9F-89FC-0556-EC065C709B68</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria" id="466E6931-F60B-5169-11CE-BA1AA1F2E85B">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>3B23D798-DCD8-B367-BE3A-7B4323C069B5</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="EE8F91E9-0EA2-2F86-0D61-9FEA7352DC02">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>DF5E3B2B-052E-4B20-D189-6180ACB854E3</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="F23C20F4-CD3F-5637-296C-26A92A0C8B22">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>C44C52A4-335F-A91B-3780-A98608B75323</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Piso" id="3928F40F-F995-3F85-84D5-579C94572A7F">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>0E620BF7-6304-653B-B0BD-51CC369BAB20</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mano" id="3C6F28D5-EFD1-5F6C-31C7-263D123D5CF1">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>266A77D7-2421-C5D0-A34C-21182D6D75B8</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="4E468C48-83DC-AFCC-B707-7383BAD4F89C">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>83A52226-35BC-1CEF-1672-97D704FD15AF</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodigoPostal" id="EEF33D7A-A9D0-B05C-01C5-5F52C4F54913">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>769F6EAC-50F3-2933-942D-1B0E05DA254D</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provincia" id="1B579856-1682-8183-ABCA-CF895039D594">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>4CD9CEA1-9E5F-F169-9773-F9D665172983</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MovilEmpresa" id="0F65FF56-2823-DEEF-4D3B-3CF656628B81">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>274AC1BB-EFA5-1C66-0534-CF06D27F0446</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MovilPersonal" id="FB567BDA-1D57-45C7-EA46-8AA17813E368">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>4B07C23A-71E3-C8BD-2C23-3385B7797734</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="F53E2A1C-E9DD-9D1D-BA9D-4588B6774C74">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>B4997223-A7BE-9A55-642F-52D1E79A874C</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaNacimiento" id="E8F0DE40-44CF-841F-3493-30D2C6C08722">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>B9C3E141-CC2D-ABBC-DB22-C0FF810FE966</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENTROS_IDCent" id="6B3E0001-B481-7E10-F880-E0D434E374D2">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>749790E4-A07E-501F-5B8A-2B66CDEE5260</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4503C22F-BBB4-E1A1-5E67-F92A627E02AB" referredColumn="0DA6DE54-057D-A71D-CC85-F7C82019E16B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38230F58-13EA-CF78-562C-7DECE97920F7" name="TRABAJADORES_PK">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>C92FCB21-D83C-D958-D495-062C26DD8B66</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72525203-94EC-C1BE-A044-B49159869CEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5388E795-A9BD-2C97-0D8D-A0C01257A540" name="TRABAJADORES__IDX">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-30 19:01:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1A2AA073-028B-A19D-9790-D05796DE8C64</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="BB8779D0-EB26-7137-E7CC-160F5CD66B5E" name="TRABAJADORES_CENTROS_FK">
+<createdBy>7FPROG11</createdBy>
+<createdTime>2017-03-29 19:11:18 UTC</createdTime>
+<generatorID>70ED97F8-DE05-0F6E-C624-E02EEC126B92</generatorID>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B3E0001-B481-7E10-F880-E0D434E374D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

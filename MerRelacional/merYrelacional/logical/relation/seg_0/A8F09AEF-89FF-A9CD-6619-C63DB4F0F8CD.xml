@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIENENv2" directorySegmentName="seg_0" id="A8F09AEF-89FF-A9CD-6619-C63DB4F0F8CD">
+<createdBy>bcastrof</createdBy>
+<createdTime>2017-03-30 14:12:42 UTC</createdTime>
+<ownerDesignName>merYrelacional</ownerDesignName>
+<engineerTo>
+<item key="18F43818-BE98-B9A4-E4F7-F48D3C419ED9" value="true"/>
+</engineerTo>
+<sourcePk>A07AFB14-A088-6C32-7329-03B5BF585BB6</sourcePk>
+<targetPk>4002F184-C984-0809-EA78-66F7B68A8A42</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1E77F2D-F651-DCC9-43ED-97FEB6AC1A59</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>151B5136-E6B4-A596-3D0A-286898439096</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
